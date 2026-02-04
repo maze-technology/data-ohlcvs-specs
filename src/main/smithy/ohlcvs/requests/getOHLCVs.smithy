@@ -4,6 +4,7 @@ namespace tech.maze.dtos.ohlcvs.requests
 
 use smithy.api#Timestamp
 use tech.maze.dtos.ohlcvs.models#OHLCVs
+use tech.maze.dtos.ohlcvs.types#Duration
 
 list GetOHLCVsResponseResponseList {
     member: OHLCVs
