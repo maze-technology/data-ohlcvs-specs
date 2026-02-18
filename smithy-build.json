@@ -22,6 +22,10 @@
         "httpCredentials": "${GITHUB_USERNAME}:${GITHUB_TOKEN}"
       },
       {
+        "url": "https://maven.pkg.github.com/maze-technology/data-math-specs",
+        "httpCredentials": "${GITHUB_USERNAME}:${GITHUB_TOKEN}"
+      },
+      {
         "url": "https://repo.maven.apache.org/maven2/"
       }
     ]
