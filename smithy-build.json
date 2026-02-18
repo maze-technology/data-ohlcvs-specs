@@ -5,8 +5,7 @@
     "dependencies": [
       "com.disneystreaming.alloy:alloy-core:0.3.36",
       "tech.maze:smithy-event-codegen:0.0.2",
-      "tech.maze:smithy-event-traits:0.0.2",
-      "tech.maze:dtos.math:0.0.1"
+      "tech.maze:smithy-event-traits:0.0.2"
     ],
     "repositories": [
       {
@@ -15,14 +14,6 @@
       },
       {
         "url": "https://maven.pkg.github.com/maze-technology/smithy-event-traits",
-        "httpCredentials": "${GITHUB_USERNAME}:${GITHUB_TOKEN}"
-      },
-      {
-        "url": "https://maven.pkg.github.com/maze-technology/math-specs",
-        "httpCredentials": "${GITHUB_USERNAME}:${GITHUB_TOKEN}"
-      },
-      {
-        "url": "https://maven.pkg.github.com/maze-technology/data-math-specs",
         "httpCredentials": "${GITHUB_USERNAME}:${GITHUB_TOKEN}"
       },
       {

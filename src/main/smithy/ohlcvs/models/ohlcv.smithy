@@ -4,7 +4,7 @@ namespace tech.maze.dtos.ohlcvs.models
 
 use smithy.api#Document
 use smithy.api#Timestamp
-use tech.maze.dtos.math#BigDecimal
+use tech.maze.dtos.ohlcvs.types#BigDecimal
 use tech.maze.dtos.ohlcvs.types#Duration
 
 structure OHLCV {
