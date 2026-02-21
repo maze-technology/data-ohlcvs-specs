@@ -7,5 +7,6 @@ list OHLCVsOhlcvsList {
 }
 
 structure OHLCVs {
+    @required
     ohlcvs: OHLCVsOhlcvsList
 }
